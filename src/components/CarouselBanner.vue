@@ -10,23 +10,30 @@
           about ARISEOL</a>
       </div>
     </div>
-    <div class="d-md-none d-flex flex-column h-100 justify-content-between align-items-center w-100 min-vh-100"
-      style="background-color: black;">
+    <div class="d-md-none d-flex flex-column justify-content-between align-items-center w-100"
+      style="background-color: black; height: 100vh;">
+
       <!-- Top Section -->
-      <div class="px-2 mt-3 w-100">
+      <div class="px-2 w-100" style="position: fixed; top: 0; z-index: 1;">
         <img src="/img/clg.png" class="w-100 py-1" alt="clg logo">
-        <p class="text-warning fs-4 my-2">India's leading manufacturer of lubrication & grease </p>
+        <p class="text-warning fs-4 my-2">India's leading manufacturer of lubrication & grease</p>
         <a href="https://web.clgoilindia.com" class="text-capitalize btn fs-4 rounded mb-5 mt-3"
           style="background-color: #FFA907;">click here to know about us</a>
       </div>
 
+      <!-- Middle Section (acts as background) -->
+      <div style="flex-grow: 1; background-color: black;">
+        <!-- This section takes up the remaining space -->
+      </div>
+
       <!-- Bottom Section -->
-      <div class="w-100">
+      <div class="w-100" style="position: fixed; bottom: 0; z-index: 1;">
         <img src="/img/mobile.jpg" class="w-100" alt="Banner">
         <a href="https://www.ariseol.com" class="w-100 text-capitalize btn text-white fs-3 rounded-0"
           style="background-color: #DB1D27;">click here to know ARISEOL</a>
       </div>
     </div>
+
 
   </div>
 </template>
